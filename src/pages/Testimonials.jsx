@@ -1,13 +1,9 @@
 import React from "react";
-import img1 from "../assets/john-doe.jpg";
-import john from "../assets/john.jpg";
-import robert from "../assets/robert.jpg";
-import lady from "../assets/lady.jpg";
 
 const Testimonials = () => {
   const testimonials = [
     {
-      image: img1,
+      image: "/uploads/profiles/john-doe.jpg",
       name: "Rajesh Sharma",
       role: "CEO, Manufacturing Ltd",
       comment:
@@ -15,7 +11,7 @@ const Testimonials = () => {
       rating: 5,
     },
     {
-      image: john,
+      image: "/uploads/profiles/john.jpg",
       name: "Priya Patel",
       role: "Finance Manager, RetailCorp",
       comment:
@@ -23,7 +19,7 @@ const Testimonials = () => {
       rating: 5,
     },
     {
-      image: lady,
+      image: "/uploads/profiles/lady.jpg",
       name: "Anita Gurung",
       role: "Director, Trading Company",
       comment:
@@ -31,7 +27,7 @@ const Testimonials = () => {
       rating: 5,
     },
     {
-      image: robert,
+      image: "/uploads/profiles/robert.jpg",
       name: "Bikash Thapa",
       role: "CFO, Service Industries",
       comment:

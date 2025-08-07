@@ -14,7 +14,6 @@ import {
   FaTwitter,
   FaGithub
 } from "react-icons/fa";
-import img1 from "../assets/sagar.png";
 
 
 function AboutUs() {
@@ -127,7 +126,7 @@ function AboutUs() {
     {
       name: "Sagar Khadka",
       role: "Chartered Accountant",
-      image: img1,
+      image: "/uploads/profiles/sagar.png",
       description: "Dedicated CA with 8+ years of experience in auditing, taxation, IFRS implementation, and financial consulting.",
       social: {
         linkedin: "#",

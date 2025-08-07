@@ -513,6 +513,6 @@ export const aboutInfo = {
 };
 
 export const logoInfo = {
-  companyLogo: "1754464860201-Brand.jpg",
+  companyLogo: "sagar.png",
   personalPhoto: "1754246259795-dhruba.jpg"
 };

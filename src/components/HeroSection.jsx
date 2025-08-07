@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ReactTyped } from "react-typed";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
-import professionalImage from "../assets/sagar.png";
 
 function HeroSection() {
   const navigate = useNavigate();
@@ -186,7 +185,7 @@ function HeroSection() {
               {/* Professional image */}
               <div className="w-full h-96 lg:h-[550px] bg-gradient-to-br from-primary-100 to-secondary-100 rounded-2xl shadow-2xl overflow-hidden">
                 <img 
-                  src={professionalImage} 
+                  src="/uploads/profiles/sagar.png" 
                   alt="Sagar Khadka, Chartered Accountant"
                   className="w-full h-full object-cover"
                 />
