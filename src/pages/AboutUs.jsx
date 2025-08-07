@@ -81,7 +81,7 @@ function AboutUs() {
   // Mission, Vision, Values data
   const coreValues = [
     {
-      title: "My Mission",
+      title: "My MissionMy MissionMy Mission",
       description: "To provide exceptional accounting and financial services that enable businesses to achieve compliance, optimize operations, and make informed strategic decisions.",
       icon: FaRocket,
       color: "from-blue-500 to-purple-600"
