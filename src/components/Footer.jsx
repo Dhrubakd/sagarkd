@@ -99,7 +99,7 @@ function Footer() {
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <FaPhone className="w-4 h-4" />
-                <span className="text-sm">+977-1-234-5678</span>
+                <span className="text-sm">+977-986-995-9392</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <FaMapMarkerAlt className="w-4 h-4" />
@@ -112,9 +112,9 @@ function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-1 text-gray-400 text-sm mb-4 md:mb-0">
-            <span>&copy; {new Date().getFullYear()} Sagar Khadka, CA. Made with</span>
-            <FaHeart className="text-red-500 w-4 h-4" />
-            <span>in Nepal.</span>
+            <span>&copy; {new Date().getFullYear()} Sagar Khadka, CA. </span>
+            {/* <FaHeart className="text-red-500 w-4 h-4" />
+            <span>in Nepal.</span> */}
           </div>
           
           <div className="flex items-center space-x-6">

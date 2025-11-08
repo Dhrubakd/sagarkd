@@ -166,8 +166,8 @@ function ContactUs() {
     {
       icon: FaPhone,
       title: "Phone",
-      content: "+977 98XXXXXXXX",
-      link: "tel:+97798XXXXXXXX"
+      content: "+977 9869959392",
+      link: "tel:+9779869959392"
     },
     {
       icon: FaClock,
@@ -521,7 +521,7 @@ function ContactUs() {
             <div className="h-64 bg-gray-100 relative overflow-hidden">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d268.37238560389034!2d-0.6686409509364127!3d51.91938115878379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876513a23136c7b%3A0x9ee6664ffb1f1415!2sAi%20Solutions%20Ltd!5e0!3m2!1sen!2snp!4v1735149655212!5m2!1sen!2snp"
-                className="w-full h-full border-0 transition-all duration-300 hover:scale-105"
+                className="w-full h-full border-0 transition-all duration-300 hover:scale-100"
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

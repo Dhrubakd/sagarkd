@@ -482,13 +482,13 @@ function Skills() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/contact"
-                className="btn-primary bg-white text-primary-600 hover:bg-gray-100 inline-block text-center px-8 py-3 rounded-lg font-semibold transition-all duration-300"
+                className="btn-primary bg-white text-white hover:bg-gray-100 inline-block text-center px-8 py-3 rounded-lg font-semibold transition-all duration-300"
               >
                 Get In Touch
               </Link>
               <Link
                 to="/services"
-                className="btn-secondary border-white text-white hover:bg-white hover:text-primary-600 inline-block text-center px-8 py-3 rounded-lg font-semibold border-2 transition-all duration-300"
+                className="btn-secondary border-white text-black hover:bg-white hover:text-primary-600 inline-block text-center px-8 py-3 rounded-lg font-semibold border-2 transition-all duration-300"
               >
                 View Services
               </Link>
