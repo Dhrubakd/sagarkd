@@ -219,7 +219,7 @@ function Home() {
           >
             <motion.h2 
               variants={itemVariants}
-              className="heading-2 text-gradient mb-6"
+              className="heading-2 text-white mb-6"
             >
               Client Sectors
             </motion.h2>
