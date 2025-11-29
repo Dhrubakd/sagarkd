@@ -1,0 +1,5 @@
+name = "sagarkd"
+compatibility_date = "2025-11-29"
+
+[site]
+bucket = "./dist"
