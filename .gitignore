@@ -35,3 +35,7 @@ ehthumbs.db
 
 # Vercel
 .vercel/
+
+# Wrangler
+.wrangler/
+.dev.vars
