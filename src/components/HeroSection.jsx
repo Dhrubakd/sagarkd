@@ -1,7 +1,6 @@
 
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ReactTyped } from "react-typed";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function HeroSection() {
@@ -40,15 +39,12 @@ function HeroSection() {
 
             {/* Main Heading */}
             <div className="mb-8">
-              <ReactTyped
-                className="text-4xl lg:text-6xl font-bold leading-tight text-gray-900 dark:text-gray-100 block"
-                strings={[
-                  "Hello, I'm <span style='color: #4F46E5;'>Sagar Khadka, CA</span>",
-                ]}
-                loop={true}
-                backSpeed={50}
-                typeSpeed={80}
-              />
+              <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-gray-900 dark:text-gray-100 mb-4">
+                Sagar Khadka, Chartered Accountant
+              </h1>
+              <p className="text-lg lg:text-xl text-gray-700 dark:text-gray-300 font-medium">
+                CA (India, Nepal), B.Com (A&F), M.Com (F&T), Dip. IFRS (ACCA), FMVA, BIDA, FAFD, MBA (SAP/ERP & Business Analytics), US CPA Candidate
+              </p>
             </div>
 
             {/* Subheading */}
@@ -58,7 +54,7 @@ function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
             >
-              Expert Chartered Accountant with 8+ years of experience in IFRS, auditing, taxation, 
+              Expert Chartered Accountant with 10+ years of experience in IFRS, auditing, taxation, 
               and financial consulting. Helping businesses achieve compliance and sustainable growth.
             </motion.p>
 
@@ -72,7 +68,7 @@ function HeroSection() {
               <div className="flex flex-wrap gap-3">
                 {[
                   "ICAN & ICAI Qualified",
-                  "8+ Years Experience", 
+                  "10+ Years Experience", 
                   "IFRS Expert",
                   "Financial Analytics"
                 ].map((point, index) => (
@@ -87,7 +83,7 @@ function HeroSection() {
             </motion.div>
 
             {/* Contact Info */}
-            <motion.div 
+            {/* <motion.div 
               className="mb-10 space-y-3"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -113,10 +109,10 @@ function HeroSection() {
                 </div>
                 <span className="text-base font-medium">Kathmandu, Nepal</span>
               </div>
-            </motion.div>
+            </motion.div> */}
 
             {/* Connect With Me - Social Media */}
-            <motion.div 
+            {/* <motion.div 
               className="mb-10"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -146,10 +142,10 @@ function HeroSection() {
                   );
                 })}
               </div>
-            </motion.div>
+            </motion.div> */}
 
             {/* Buttons */}
-            <motion.div 
+            {/* <motion.div 
               className="flex flex-col sm:flex-row gap-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -171,7 +167,7 @@ function HeroSection() {
               >
                 View Services
               </motion.button>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
 
           {/* Right Image */}
@@ -202,7 +198,7 @@ function HeroSection() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 1.2 }}
               >
-                <div className="text-2xl font-bold text-primary-600">8+</div>
+                <div className="text-2xl font-bold text-primary-600">10+</div>
                 <div className="text-sm text-gray-600 dark:text-gray-300">Years Experience</div>
               </motion.div>
 
@@ -212,8 +208,8 @@ function HeroSection() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 1.4 }}
               >
-                <div className="text-2xl font-bold text-secondary-600">200+</div>
-                <div className="text-sm text-gray-600 dark:text-gray-300">Audits Completed</div>
+                <div className="text-2xl font-bold text-primary-600">100+</div>
+                <div className="text-sm text-gray-600 dark:text-gray-300">Clients Served</div>
               </motion.div>
             </div>
           </motion.div>

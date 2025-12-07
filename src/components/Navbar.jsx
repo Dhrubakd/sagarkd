@@ -151,11 +151,11 @@ function Navbar() {
                 alt="Sagar Khadka CA Logo" 
                 className="h-12 w-12 object-contain"
               />
-              <div className="hidden sm:block">
+              {/* <div className="hidden sm:block">
                 <span className="text-xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
                   Sagar Khadka, CA
                 </span>
-              </div>
+              </div> */}
             </Link>
           </motion.div>
 
