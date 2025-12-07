@@ -514,5 +514,5 @@ export const aboutInfo = {
 
 export const logoInfo = {
   companyLogo: "sagar.png",
-  personalPhoto: "1754246259795-dhruba.jpg"
+  personalPhoto: "SKPlain.png"
 };

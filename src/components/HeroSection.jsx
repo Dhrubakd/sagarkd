@@ -28,7 +28,7 @@ function HeroSection() {
             transition={{ duration: 0.8 }}
           >
             {/* Badge */}
-            <motion.div
+            {/* <motion.div
               className="inline-flex items-center px-4 py-2 bg-primary-100 dark:bg-primary-900/30 text-primary-800 dark:text-primary-200 rounded-full text-sm font-medium mb-8"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -36,7 +36,7 @@ function HeroSection() {
             >
               <span className="w-2 h-2 bg-primary-500 rounded-full mr-2"></span>
               Professional Chartered Accountant
-            </motion.div>
+            </motion.div> */}
 
             {/* Main Heading */}
             <div className="mb-8">
@@ -185,7 +185,7 @@ function HeroSection() {
               {/* Professional image */}
               <div className="w-full h-96 lg:h-[550px] bg-gradient-to-br from-primary-100 to-secondary-100 rounded-2xl shadow-2xl overflow-hidden">
                 <img 
-                  src="/uploads/profiles/sagar.png" 
+                  src="/uploads/profiles/OfficePhoto.png" 
                   alt="Sagar Khadka, Chartered Accountant"
                   className="w-full h-full object-cover"
                 />
