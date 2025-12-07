@@ -89,11 +89,11 @@ function Navbar() {
       path: "/blogs", 
       icon: FaNewspaper 
     },
-    { 
-      name: "Journals", 
-      path: "/journals", 
-      icon: FaBookOpen 
-    },
+    // { 
+    //   name: "Journals", 
+    //   path: "/journals", 
+    //   icon: FaBookOpen 
+    // },
     { 
       name: "Contact", 
       path: "/contact", 
@@ -146,22 +146,16 @@ function Navbar() {
             className="flex-shrink-0"
           >
             <Link to="/" className="flex items-center space-x-3">
-              {logo ? (
-                <img 
-                  src={`/uploads/logo/${logo}`} 
-                  alt="Sagar Khadka CA Logo" 
-                  className="h-10 w-10 rounded-full object-cover"
-                />
-              ) : (
-                <div className="w-10 h-10 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">SK</span>
-                </div>
-              )}
-              {/* <div className="hidden sm:block">
+              <img 
+                src="/uploads/logo/SKPlain.png" 
+                alt="Sagar Khadka CA Logo" 
+                className="h-12 w-12 object-contain"
+              />
+              <div className="hidden sm:block">
                 <span className="text-xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
                   Sagar Khadka, CA
                 </span>
-              </div> */}
+              </div>
             </Link>
           </motion.div>
 
